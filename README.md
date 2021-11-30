@@ -1,7 +1,7 @@
 
 # Model
 
-To classify writers, I developed a multi layer CNN in Keras, followed by an RNN in Tensorflow.  The problem of handwritten scribes, which are typically given by doctors and nurses is addressed here. Handwritten scripts are converted into digital records which can be stored in non-relational databases. The data for the model was taken from the IAM Handwriting database. This model is based on 657 distinct writers' handwriting. Multiple paragraphs were created by each writer, and sentences were extracted from those paragraphs.
+To classify writers, I worked on a multi layer CNN in Keras, followed by an RNN in Tensorflow.  The problem of handwritten scribes, which are typically given by doctors and nurses is addressed here. Handwritten scripts are converted into digital records which can be stored in non-relational databases. The data for the model was taken from the IAM Handwriting database. This model is based on 657 distinct writers' handwriting. Multiple paragraphs were created by each writer, and sentences were extracted from those paragraphs.
 
 # Results
 
@@ -9,5 +9,5 @@ Model's performance has been calculated based on a test set which has writings f
 
 # References
 
-IAM handwriting database http://www.fki.inf.unibe.ch/databases/iam-handwriting-database/download-the-iam-handwriting-database
-Alex Graves work on RNN https://arxiv.org/pdf/1308.0850.pdf
+ http://www.fki.inf.unibe.ch/databases/iam-handwriting-database/download-the-iam-handwriting-database
+ https://arxiv.org/pdf/1308.0850.pdf
